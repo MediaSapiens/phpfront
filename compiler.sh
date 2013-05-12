@@ -3,7 +3,7 @@
 echo 'change folder'
 cd src/
 
-echo 'command execute';
+echo 'command execute'
 
 npm install
 brunch b
