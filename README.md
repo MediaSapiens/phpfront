@@ -1,17 +1,11 @@
 Installation
 ================
 
-Prerequisites¶
+Prerequisites
 
-	curl -s http://getcomposer.org/installer | php
+	# node.js npm
+	# brunch.io
 
-add if not exist to composer.js
-
-	{
-	    "require": {
-	        "twig/twig": "1.*"
-	    }
-	}
-
+Compile scss
 	
-	php composer.phar install
+	./compile.sh
