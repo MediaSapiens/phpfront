@@ -25,7 +25,7 @@ exports.config =
         ]
 
     stylesheets:
-      defaultExtension: 'compass'
+      defaultExtension: 'scss'
       joinTo:
         'css/app.css': /^(app|vendor)/
         'test/css/test.css': /^test/
