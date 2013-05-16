@@ -1,2 +1,5 @@
 tmp
 npm-debug.log
+.sass-cache
+.DS_store
+static

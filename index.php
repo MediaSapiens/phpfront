@@ -17,7 +17,7 @@ if (!empty($url_path)){
 $loader = new Twig_Loader_Filesystem($tmpl_folder);
 
 $twig = new Twig_Environment($loader, array(
-    'cache' => 'tmp/compilation_cache',
+    // 'cache' => 'tmp/compilation_cache',
 ));
 //@todo: refactor
 if(!file_exists($tmpl_folder . '/' . $tmpl_name)){

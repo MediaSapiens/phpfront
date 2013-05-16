@@ -1,0 +1,8 @@
+
+.test-block {
+	$background-image: "test-image.gif";
+	width: image-width($background-image);
+	height: image-height($background-image);
+	background: image-url($background-image) #000;
+	margin: 0 auto;
+}

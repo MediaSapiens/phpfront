@@ -3,6 +3,10 @@ exports.config =
   paths:
     public: '../static/'
 
+  # plugins:
+  #   sass:
+  #     debug: 'comments'
+
   files:
     javascripts:
       joinTo:
@@ -21,7 +25,7 @@ exports.config =
         ]
 
     stylesheets:
-      defaultExtension: 'scss'
+      defaultExtension: 'compass'
       joinTo:
         'css/app.css': /^(app|vendor)/
         'test/css/test.css': /^test/

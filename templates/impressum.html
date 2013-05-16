@@ -2,14 +2,13 @@
 
 {% block title %}Index{% endblock %}
 {% block head %}
-    {{ parent() }}
-    <style type="text/css">
-        .important { color: #336699; }
-    </style>
+{{ parent() }}
+<style type="text/css">
+.important { color: #f00; }
+</style>
 {% endblock %}
 {% block content %}
-    <h1>Impressum</h1>
-    <p class="important">
-        Welcome to my awesome homepage.
-    </p>
+<h1>Impressum</h1>
+	<div class="test-block">
+	</div>
 {% endblock %}
